@@ -301,7 +301,8 @@
     overflow: hidden;
 
 }
-.travel-img img{
+
+.travel-img img {
     object-fit: contain;
 }
 
@@ -340,4 +341,46 @@
     font-weight: 500;
     margin-left: 1rem;
     text-align: center;
+}
+
+.review-cards {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.review-card {
+    height: 300px;
+    width: 400px;
+    border: 1px solid #8899aa;
+}
+
+.footer-nav {
+    background-color: #092938;
+}
+
+.copywright {
+    margin-left: 2rem;
+    font-weight: 600;
+    font-size: 13px;
+    color: #ffff;
+
+}
+
+.footer-anchor {
+    margin-right: 2rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-nav-anchor {
+    text-decoration: none;
+    font-size: 13px;
+    color: #8899aa;
+    font-weight: 600;
+
+
 }
